@@ -1,4 +1,4 @@
-FROM quay.io/openshift/origin-jenkins-agent-base:v4.0
+FROM quay.io/vbobade/openshift-jenkins-base-agent:latest
 
 MAINTAINER Akram Ben Aissi <abenaiss@redhat.com>
 
