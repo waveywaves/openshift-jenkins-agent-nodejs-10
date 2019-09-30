@@ -26,7 +26,7 @@ var _ = BeforeSuite(func() {
 
 	imageName = os.Getenv("IMAGE_NAME")
 	if imageName == "" {
-		imageName = "openshift/jenkins-agent-nodejs-10-centos7-candidate"
+		imageName = "vbobade/openshift-jenkins-base-agent"
 	}
 })
 
